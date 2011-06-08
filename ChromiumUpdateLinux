@@ -1,0 +1,8 @@
+wget http://build.chromium.org/f/chromium/snapshots/chromium-rel-mac/LATEST -O latest.txt
+#myFile="~/Downloads/latest.txt "
+myURL=""
+myURL=`cat latest.txt`
+echo http://build.chromium.org/f/chromium/snapshots/chromium-rel-linux/$myURL/chrome-linux.zip
+wget http://build.chromium.org/f/chromium/snapshots/chromium-rel-linux/$myURL/chrome-linux.zip
+unzip chrome-linux.zip
+rm latest.txt
