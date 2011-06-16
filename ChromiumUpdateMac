@@ -1,6 +1,5 @@
 cd ~/Downloads
 wget http://build.chromium.org/f/chromium/snapshots/Mac/LATEST -O latest.txt
-#myFile="~/Downloads/latest.txt "
 myURL=""
 myURL=`cat latest.txt`
 echo http://build.chromium.org/f/chromium/snapshots/Mac/$myURL/chrome-mac.zip
