@@ -1,3 +1,5 @@
+Update Chromium Script
+===============
 This is a Shell Script to update the Chromium web browser.
 
 •If on a Linux machine, wget is already installed.* 
